@@ -1,0 +1,32 @@
+{
+  "台北市大安區": {
+    "price_per_ping": 350000,
+    "source": "市場估值（可替換實價登錄）",
+    "last_update": "2026-01"
+  },
+  "台北市信義區": {
+    "price_per_ping": 320000,
+    "source": "市場估值",
+    "last_update": "2026-01"
+  },
+  "新北市板橋區": {
+    "price_per_ping": 180000,
+    "source": "市場估值",
+    "last_update": "2026-01"
+  },
+  "台中市西區": {
+    "price_per_ping": 120000,
+    "source": "市場估值",
+    "last_update": "2026-01"
+  },
+  "台中市西屯區": {
+    "price_per_ping": 150000,
+    "source": "市場估值",
+    "last_update": "2026-01"
+  },
+  "高雄市前金區": {
+    "price_per_ping": 90000,
+    "source": "市場估值",
+    "last_update": "2026-01"
+  }
+}
