@@ -1,35 +1,50 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <title>土地估價工具</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+  background: #f5f7fb;
+  margin: 0;
+}
 
-<body>
-  <div class="container">
-    <h1>土地估價工具</h1>
+.container {
+  max-width: 650px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
 
-    <label>行政區</label>
-    <input id="area" placeholder="例如：台中西區">
+h1 {
+  text-align: center;
+  color: #333;
+}
 
-    <label>坪數</label>
-    <input id="ping" type="number" placeholder="例如：50">
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
 
-    <button onclick="calc()">計算總價</button>
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2b6cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-    <h2 id="result"></h2>
+button:hover {
+  background: #1f4fd6;
+}
 
-    <hr>
-
-    <h3>坪 ↔ 平方公尺</h3>
-    <input id="m2" placeholder="平方公尺">
-    <button onclick="toPing()">轉坪</button>
-
-    <input id="ping2" placeholder="坪數">
-    <button onclick="toM2()">轉平方公尺</button>
-  </div>
-
-  <script src="app.js"></script>
-</body>
-</html>
+.card {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9fafc;
+  border-left: 5px solid #2b6cff;
+}
